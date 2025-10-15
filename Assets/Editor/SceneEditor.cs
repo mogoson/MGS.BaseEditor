@@ -29,6 +29,10 @@ namespace MGS.Editors
         protected readonly Handles.DrawCapFunction CircleCap = Handles.CircleCap;
         protected readonly Handles.DrawCapFunction SphereCap = Handles.SphereCap;
 #endif
+        protected readonly Color Blue = new Color(0, 1, 1, 1);
+        protected readonly Color TransparentBlue = new Color(0, 1, 1, 0.1f);
+        protected const float NodeSize = 0.125f;
+
         protected void DrawCircleCap(Vector3 position, Quaternion rotation, float size)
         {
 #if UNITY_5_5_OR_NEWER
