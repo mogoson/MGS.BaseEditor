@@ -18,9 +18,9 @@ using UnityEngine;
 using UnityEditor.SceneManagement;
 #endif
 
-namespace MGS.Editors
+namespace MGS.Base.Editor
 {
-    public class SceneEditor : Editor
+    public class SceneEditor : UnityEditor.Editor
     {
 #if UNITY_5_5_OR_NEWER
         protected readonly Handles.CapFunction CircleCap = Handles.CircleHandleCap;

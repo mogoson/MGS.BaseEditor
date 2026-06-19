@@ -1,6 +1,6 @@
 {
-    "name": "MGS.BaseEditor",
-    "rootNamespace": "",
+    "name": "MGS.Base.Editor",
+    "rootNamespace": "MGS.Base.Editor",
     "references": [],
     "includePlatforms": [
         "Editor"
